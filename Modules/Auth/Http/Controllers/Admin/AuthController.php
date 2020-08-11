@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Auth\Http\Controllers;
+namespace Modules\Auth\Http\Controllers\Admin;
 
 use Illuminate\Routing\Controller;
 use Modules\Auth\Http\Requests\AuthLoginRequest;
