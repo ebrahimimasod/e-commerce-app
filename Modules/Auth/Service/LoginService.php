@@ -12,6 +12,8 @@ use Modules\User\Entities\User;
 
 class LoginService
 {
+    use AdminLoginService;
+
     public static function login(Request $request)
     {
         $user = self::getUserFromRequest($request);

@@ -12,7 +12,7 @@ class AuthController extends Controller
 {
     public function login(AdminLoginRequest $request)
     {
-        return LoginService::login($request);
+        return LoginService::adminLogin($request);
     }
 
     public function logout(SendVerificationCodeRequest $request)
